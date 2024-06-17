@@ -1,0 +1,25 @@
+.select-days{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem 0rem;
+    /* padding-top: 1.5rem; */
+    padding-left: 1rem;
+}
+
+@media only screen and (max-width: 800px){
+    .select-days{
+        scale: 85%;
+        position: relative;
+        right: 3rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .select-days{
+        scale: 75%;
+        position: relative;
+        right: 4rem;
+    }
+}

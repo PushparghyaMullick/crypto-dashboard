@@ -1,0 +1,20 @@
+.toggle-prices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+@media only screen and (max-width: 800px){
+    .toggle-prices{
+        scale: 85%;
+        margin: 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .toggle-prices{
+        scale: 75%;
+        margin: 0.5rem;
+    }
+}
